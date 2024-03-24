@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light {
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+  @apply text-indigo-950 bg-indigo-600;
+}
+
+.dark {
+  width: 100%;
+  transition: all 0.2s ease-in-out;
+  @apply text-slate-200 bg-slate-900;
+}
