@@ -51,7 +51,7 @@ const Main = ({ toggleMenu, show }) => {
             <Card />
           </div>
 
-          <div className="grid md:grid-cols-4  gap-4 m-4">
+          <div className="grid md:grid-cols-1 lg:grid-cols-4  gap-4 m-4">
             <Client title="New Clients" value="64" percentage="+69%" />
             <div className=" md:col-span-3 row-span-2 bg-white dark:bg-slate-900/50 overflow-hidden">
               <Charts />

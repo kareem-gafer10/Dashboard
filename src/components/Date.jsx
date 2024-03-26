@@ -18,11 +18,7 @@ const Date = () => {
     </div>
   ));
 
-  return (
-    <>
-      {DateList}
-    </>
-  );
+  return <>{DateList}</>;
 };
 
 export default Date;
